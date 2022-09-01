@@ -1,0 +1,17 @@
+.home {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 1rem;
+
+    &__posts {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: space-around;
+
+        @media(min-width: 992px) {
+            flex-direction: row;
+        }
+    }
+}
